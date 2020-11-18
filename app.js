@@ -33,6 +33,17 @@ const displayData = data => {
   const displayPeopleData = data => {
    
     document.getElementById('people').textContent = data.number
+
+    let str = '<ul>'
+    data.people.forEach(function(item) {
+        str += "<li id='name'>" + item.name + "</li>"
+        str += "<li id='craft'>" +"Craft - " + item.craft + "</li>"
+        console.log(item.name)
+    })
+    str += "</ul>"
+    console.log(str)
+    document.getElementById('cards').innerHTML = str
+
     
   }
 

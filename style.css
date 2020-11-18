@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap');
+
 * {
   padding: 0;
   box-sizing: border-box;
@@ -36,7 +38,54 @@
   z-index: 10;
 }
 
-.title {
+#title h1 {
   position: relative;
+  font-family: 'Goldman', cursive;
+
+}
+
+#cards {
+
+  font-family: 'Goldman', cursive;
+  font-size: 2rem;
+  text-align: left;
+  margin-left: 2rem;
+
+}
+
+#cards {
+  border-radius: 1px black solid;
+  margin: 0px 15px 15px 15px;
+}
+
+#cards ul {
+  list-style-type: none;
+  width: 20%;
+
+}
+
+#cards ul #name {
+  padding-bottom: 1rem;
+}
+
+#cards ul #craft {
+
+  padding-bottom: 2rem;
+  margin-bottom: 1rem;
+}
+
+li:nth-child(4n),
+li:nth-child(4n-1) {
+  background: rgba(156, 217, 217, 0.7);
+  border-left: solid black 1px;
+  border-right: solid black 1px;
+
+}
+
+li:nth-child(4n-2),
+li:nth-child(4n-3) {
+  background: rgba(184, 212, 212, 0.7);
+  border-left: 1px black solid;
+  border-right: solid black 1px;
 
 }
