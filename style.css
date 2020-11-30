@@ -45,22 +45,25 @@
 }
 
 #cards {
-
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background-color: darkgray;
   font-family: 'Goldman', cursive;
   font-size: 2rem;
   text-align: left;
-  margin-left: 2rem;
+
 
 }
 
-#cards {
-  border-radius: 1px black solid;
+/* #cards {
+  border-radius: 50px;
   margin: 0px 15px 15px 15px;
-}
+} */
 
 #cards ul {
   list-style-type: none;
-  width: 20%;
+  width: 100%;
 
 }
 
